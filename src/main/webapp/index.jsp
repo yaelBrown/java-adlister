@@ -14,6 +14,11 @@ View the page source!
 <%-- this is a JSP comment, you will *not* see this in the html --%>
 
 <!-- this is an HTML comment, you *will* see this in the html -->
+<br>
+<a href="/login.jsp">Goto login.jsp</a>
+<br>
+<a href="/profile.jsp">Goto profile.jsp</a>
+
 
 </body>
 </html>
