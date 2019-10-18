@@ -3,6 +3,8 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
+// Can map multiple url's to WebServlet annotation. 
+// WS({"/cookie", "cookie-monster", "/"})
 @WebServlet("/cookie")
 public class CookieServlet extends HttpServlet {
 
