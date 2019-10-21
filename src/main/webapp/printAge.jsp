@@ -9,6 +9,11 @@
 <html>
 <head>
     <title>Print the age</title>
+    <style>
+        h1 {
+            color: green;
+        }
+    </style>
 </head>
 <body>
     <%-- Prints whatever is passed as the parameter of age from the form in age.jsp  --%>
