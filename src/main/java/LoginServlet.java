@@ -26,6 +26,8 @@ public class LoginServlet extends HttpServlet {
 
             if (usr.equalsIgnoreCase("admin") && pw.equalsIgnoreCase("password")) {
                 response.sendRedirect(request.getContextPath() + "/profile.jsp");
+            } else {
+                response.sendRedirect(request.getContextPath() + "/index.html");
             }
 
         } catch (Error e) {
