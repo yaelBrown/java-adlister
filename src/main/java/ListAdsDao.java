@@ -1,3 +1,5 @@
+import interfaces.Ads;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,6 +11,11 @@ public class ListAdsDao implements Ads {
             ads = generateAds();
         }
         return ads;
+    }
+
+    @Override
+    public void add() {
+
     }
 
     private List<Ad> generateAds() {
