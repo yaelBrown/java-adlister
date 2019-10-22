@@ -1,5 +1,3 @@
-package controllers;
-
 import interfaces.Products;
 import models.Product;
 
