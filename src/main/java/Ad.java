@@ -43,8 +43,4 @@ public class Ad {
         this.description = description;
     }
 
-
-
-
-
 }
